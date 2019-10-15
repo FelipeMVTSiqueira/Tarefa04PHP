@@ -34,6 +34,20 @@
                 <input type="radio" name="sexo" value="seila">
                 <label for="sexo">Não revelar</label>
             </div>
+            <label for="sono">Dormistes bem esta noite, meu anjo?</label>
+            <select name="sono">
+                <option disabled selected>Escolher:</option>
+                <option value="1">Não.</option>
+                <option value="2">Se EU dormi bem?! Cê sabe que horas são?</option>
+                <option value="3">Baaaisobeeeenos, baisomenos...</option>
+                <option value="4">Você pode repetir a pergunta?(Enquanto boceja)</option>
+                <option value="5">Eu sempre durmo bem, o problema é acordar</option>
+                <option value="6">Dormi.</option>
+                <option value="7">To descansadão!</option>
+                <option value="8">Urso</option>
+                <option value="9">Garfield</option>
+                <option value="10">Snorlax</option>
+            </select><br>
             <input type="submit">
         </form>
     </body>
