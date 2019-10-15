@@ -61,6 +61,6 @@
         echo $info." => ".$espec."<br>";
         }
     echo "<br>"."<br>";
-    var_dump($_FILES);
-    //testando com variável global $_FILES mandando um submit vazio
+    var_dump($_SESSION);
+    //testando com variável global $_SESSION mandando um submit vazio
 ?>
