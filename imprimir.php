@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <body>
-        <form action="imprimir.php" method="server">
+        <form action="imprimir.php" method="post">
             Nome: <input type="text" name="nome"><br>
             E-mail: <input type="text" name="email"><br>
             Como ficou sabendo deste site?<br>
@@ -61,6 +61,6 @@
         echo $info." => ".$espec."<br>";
         }
     echo "<br>"."<br>";
-    var_dump($_SERVER);
-    //testando com variável global $_SERVER mandando um submit vazio
+    var_dump($_FILES);
+    //testando com variável global $_FILES mandando um submit vazio
 ?>
