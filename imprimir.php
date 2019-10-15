@@ -61,6 +61,6 @@
         echo $info." => ".$espec."<br>";
         }
     echo "<br>"."<br>";
-    var_dump($_ENV);
-    //testando com variável global $_ENV mandando um submit vazio
+    var_dump($_COOKIE);
+    //testando com variável global $_COOKIE mandando um submit vazio
 ?>
