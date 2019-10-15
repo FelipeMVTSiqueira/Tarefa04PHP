@@ -21,6 +21,19 @@
                 <input type="checkbox" name="caminho" value="nervosinho">
                 <label for="caminho">Não é da sua conta, inxirido!</label>
             </div>
+            Selecione seu gênero<br>
+            <div>
+                <input type="radio" name="sexo" value="Masculino">
+                <label for="sexo">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" value="Femnino">
+                <label for="sexo">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" value="seila">
+                <label for="sexo">Não revelar</label>
+            </div>
             <input type="submit">
         </form>
     </body>
