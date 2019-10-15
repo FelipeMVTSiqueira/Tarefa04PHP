@@ -53,6 +53,7 @@
             <input type="submit">
         </form>
     </body>
+    <br><br>
 </html>
 
 <?php 
@@ -61,5 +62,5 @@
         }
     echo "<br>"."<br>";
     var_dump($_POST);
-    //Temos de modificar o method, e todas as váriaveis $_GET pela variável $_POST
+    //O resultado mudou para exatamente o que eu esperava!
 ?>
