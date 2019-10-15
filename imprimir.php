@@ -10,5 +10,9 @@
 </html>
 
 <?php 
-    var_dump ($_GET["email"]);
+    foreach ($_GET as $info=>$espec){
+        echo $info." => ".$espec."<br>";
+        }
+    echo "<br>"."<br>";
+    var_dump($_GET);
 ?>
