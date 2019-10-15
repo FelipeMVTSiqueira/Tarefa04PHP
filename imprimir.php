@@ -48,6 +48,8 @@
                 <option value="9">Garfield</option>
                 <option value="10">Snorlax</option>
             </select><br>
+            <input type="checkbox" name="termos" value="aceito">
+            Eu concordo com os <a href=# rel=#>Termos e Condições</a>.<br>
             <input type="submit">
         </form>
     </body>
