@@ -57,10 +57,10 @@
 </html>
 
 <?php 
-    foreach ($_POST as $info=>$espec){
+    foreach (getallheaders() as $info=>$espec){
         echo $info." => ".$espec."<br>";
         }
     echo "<br>"."<br>";
     var_dump($_POST);
-    //O resultado mudou para exatamente o que eu esperava!
+    //Encontramos um monte de especificações tipo Origin, Host, Content-Type, etc...
 ?>
